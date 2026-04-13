@@ -84,8 +84,8 @@ async def start_cmd(client: Client, message: Message):
         await asyncio.sleep(e.value)
         await client.send_photo(
             chat_id=message.chat.id,
-            photo="start.jpg",
-            caption=f"🎉 **Welcome {mention}!**\n\n🔥 **Ultra AI Bot Active!**\n\n💬 Send message to start chatting!\n\n⚡ **Powered by @betabot_hub**",
+            photo="https://i.ibb.co/sp88DZ2h/8418584090-27904.jpg",
+            caption=f"🎉 **Welcome Baby  {mention}!**\n\n🔥 **Ultra AI Bot Active!**\n\n💬 Send message to start chatting!\n\n⚡ **Powered by @betabot_hub**",
             reply_markup=get_start_keyboard()
         )
 
@@ -96,7 +96,7 @@ async def ping_cmd(client: Client, message: Message):
     
     start_time = time.time()
     ping_msg = await message.reply_photo(
-        photo="ping.jpg",
+        photo="https://i.ibb.co/6SC161C/8418584090-28811.jpg",
         caption="🏓 **Pinging...**",
         reply_markup=get_ping_keyboard()
     )
