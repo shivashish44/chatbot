@@ -1,0 +1,14 @@
+ai-advance-chatbot/
+├── app.py                 # Main Railway app
+├── requirements.txt       # Dependencies
+├── config.py             # Configuration
+├── .env.example          # Environment variables
+├── .gitignore
+├── README.md
+├── Procfile              # Railway process file
+├── runtime.txt           # Python version
+└── utils/
+    ├── __init__.py
+    ├── database.py       # SQLite database
+    ├── filters.py        # Custom filters
+    └── handlers.py       # All handlers
