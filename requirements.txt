@@ -2,6 +2,7 @@ pyrogram==2.0.106
 TgCrypto==1.2.5
 aiohttp==3.9.1
 python-dotenv==1.0.0
-sqlite3
-cachetools==5.3.2
+aiosqlite==0.19.0
 requests==2.31.0
+cachetools==5.3.2
+Pillow==10.1.0
